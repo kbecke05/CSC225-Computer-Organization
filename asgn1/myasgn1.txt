@@ -1,0 +1,102 @@
+CPE 225
+Assignment 1
+Name:
+
+Objectives:
+Navigate the BASH shell and use VIM to edit files.
+Review binary, hexadecimal, and logical operations
+Use the RARS RISC-V Simulator
+
+1 Binary Arithmetic
+Complete the worksheet on binary arithmetic on the following pages.  Each section must be 100% correct to get each point.
+For each of the sections below, you must get the answers completely correct to get the point.
+
+1.1 Unsigned 8-bit arithmetic (1 pt)
+For the following unsigned, 8-bit numbers, what is the value (in decimal) of each of the following numbers:
+Binary Value : Decimal Value
+00000000 : ________________
+01101100 : ________________
+11111111 : ________________
+00100100 : ________________
+10000000 : ________________
+00010001 : ________________
+
+For unsigned numbers, what is the range of values that can fit in 8 bits? I have done the first one for you to show you what I expect.
+Minimum Values
+binary: 00000000
+decimal: 0
+
+Maximum Values
+binary: ________________
+decimal: ________________
+
+1.2 Signed 2's Compliment 8-bit arithmetic (1 pt)
+For signed, 8-bit numbers, what is the value (in decimal) of each of the following 2's complement binary numbers:
+Binary Value : Decimal Value
+00000000  : ________________
+00011010  : ________________
+11111111  : ________________
+10000001  : ________________
+10000000  : ________________
+10110101  : ________________
+
+For 2's complement signed numbers, what is the range of values that can fit in 16 bits?
+Minimum Values
+binary: ________________
+decimal: ________________
+
+Maximum Values
+binary: ________________
+decimal: ________________
+
+
+1.3 Carry and Sign Overflow (1 pt)
+Give an example of a Carry overflow without a Sign overflow:
+(the decimal result must clearly show a math error)
+     Binary:     ___________  +   ___________  =  ____________
+     Decimal:    ___________  +   ___________  =  ____________
+
+Give an example of a Sign Overflow without a Carry overflow:
+(the decimal result must clearly show a math error)
+     Binary:     ___________  +  ___________  =  ____________
+     Decimal:    ___________  +  ___________  =  ____________
+
+
+1.4 Hexadecimal (1 pt)
+Translate the following values into hexadecimal:
+00000000  : ________________
+00001101  : ________________
+11111111  : ________________
+00011001  : ________________
+10010011  : ________________
+10110110  : ________________
+
+Add the following 16-bit hexadecimal values:
+Provide the answer in hexadecimal:
+   x25A3 + x5678 = ______
+   xABCD + x3EEE = ______
+
+Subtract the following 16-bit hexadecimal values:
+Provide the answer in hexadecimal:
+	x95AA - x5678 = ______
+	xFCDE - xEEEE = ______
+
+1.5 Bitwise Logic Operations (1 pt)
+Perform the following bitwise logical operations.
+Provide the answer in hexadecimal:
+  	x25A6 & x5087 = ______
+	xABCD | x1DDD = ______
+
+Determine both the operation (ADD/AND/OR/NOT) and the value needed to set bit 7 of the following value to zero (clear bit 7) in a single operation.  Leave the rest of the bits unchanged. (Hint: expand the values to binary.)
+Provide the answer in hexadecimal:
+       x97CA  ___    ______   =  ______ 
+
+Determine both the operation (ADD/AND/OR/NOT) and the value needed to set bit 5 of the following value to one (set bit 5) in a single operation.  Leave the rest of the bits unchanged. 
+Provide the answer in hexadecimal:
+       x85CA  ___    ______   =  ______ 
+
+Other questions to help me get more about you and your expectations for this class. (3 points).
+
+What you think this class is about?
+
+What you you hope to get from this class?
